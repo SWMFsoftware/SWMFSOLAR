@@ -130,7 +130,7 @@ compile:
 	if([ -L ${MYDIR}/Scripts/pyfits ]); then					\
 		rm -f ${MYDIR}/Scripts/pyfits; 						\
 	fi;										\
-	ln -s ${DIR}/share/Python/swmfpy/swmfpy ${MYDIR}/Scripts/swmfpy; 		\
+	python3 -m pip install --user swmfpy || python3 -m pip install swmfpy           \
 	ln -s ${DIR}/share/Python/pyfits ${MYDIR}/Scripts/pyfits; 			\
 	)
 
