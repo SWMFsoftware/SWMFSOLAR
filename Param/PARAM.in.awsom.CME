@@ -551,6 +551,7 @@ F			UseNonConservative^
 2			nStage
 0.8			CflExpl
 
+The field lines near the Z axis look better with UseDivbDiffusion=T
 #DIVB
 T			UseDivbSource
 T			UseDivbDiffusion
