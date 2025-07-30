@@ -414,8 +414,8 @@ Begin session: 3
 #MINIMUMRADIALSPEED
 F			UseSpeedMin
 
-#AMR
--1			DnRefine
+#DOAMR
+F			DoAmr
 
 #END_COMP SC -----------------------------------------------------------------
 
@@ -705,8 +705,8 @@ Linde			TypeFlux
 mc3			TypeLimiter
 1.2			LimiterBeta
 
-#AMR
--1			DnRefine
+#DOAMR
+F			DoAmr
 
 #END_COMP IH -----------------------------------------------------------------
 
@@ -734,8 +734,8 @@ F			UseComp
 #MINIMUMRADIALSPEED
 F			UseSpeedMin
 
-#AMR
--1			DnRefine
+#DOAMR
+F			DoAmr
 
 #TIMESTEPPING
 3			nStage
@@ -851,8 +851,8 @@ Begin session: 10
 
 #BEGIN_COMP IH ---------------------------------------------------------------
 
-#AMR
--1			DnRefine
+#DOAMR
+F			DoAmr
 
 #END_COMP IH -----------------------------------------------------------------
 

@@ -314,8 +314,8 @@ Begin session: 2
 #MINIMUMRADIALSPEED
 F			UseSpeedMin
 
-#AMR
--1			DnRefine
+#DOAMR
+F			DoAmr
 
 #END_COMP SC -----------------------------------------------------------------
 
@@ -598,7 +598,6 @@ End session: 4
 Begin session: 5
 
 #BEGIN_COMP IH ---------------------------------------------------------------
-
 
 #DOAMR
 F			DoAmr
