@@ -14,7 +14,7 @@ SaMhd SC setup: 1.1Rs, 5.5Rs
 Begin session: 1
 
 #DESCRIPTION
-Create steady state SC and IH, AMR_CME is used 		StringDescription
+SWMFSOLAR/Param/PARAM.in.sofie.CCMC: Create steady state SC and IH, CME_AMR is used 		StringDescription
 
 #COMPONENTMAP
 SC  0 -1  1		CompMap
