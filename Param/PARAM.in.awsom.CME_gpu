@@ -331,19 +331,19 @@ x=0 VAR idl		StringPlot
 -1			DnSavePlot
 600.0			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq		NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 y=0 VAR idl		StringPlot
 -1			DnSavePlot
 600.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq		NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 z=0 VAR idl		StringPlot
 -1			DnSavePlot
 600.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq		NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 los ins idl_ascii		StringPlot
 -1			DnSavePlot
@@ -353,7 +353,7 @@ soho:c2 soho:c3 sdo:aia		StringsInstrument
 3d VAR tcp		StringPlot
 -1			DnSavePlot
 600.			DtSavePlot
-{MHD} b1x b1y b1z te ti qrad qheat qebyq qparbyq qperpbyq divu	NameVars
+{MHD} b1x b1y b1z te ti divu	NameVars
 {default}		NamePars
 
 #SATELLITE
@@ -570,25 +570,25 @@ x=0 VAR idl		StringPlot
 -1			DnSavePlot
 1800.0			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}		NamePars
 y=0 VAR idl		StringPlot
 -1			DnSavePlot
 1800.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}		NamePars
 z=0 VAR idl		StringPlot
 -1			DnSavePlot
 1800.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}		NamePars
 
 3d VAR tcp              StringPlot
 -1                      DnSavePlot
 3600.                    DtSavePlot
-{MHD} b1x b1y b1z te ti qrad qheat qebyq qparbyq qperpbyq divu	NameVars
+{MHD} b1x b1y b1z te ti divu	NameVars
 {default}               NamePars
 
 #SATELLITE
@@ -675,19 +675,19 @@ x=0 VAR idl		StringPlot
 -1			DnSavePlot
 3600.0			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq	NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 y=0 VAR idl		StringPlot
 -1			DnSavePlot
 3600.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq	NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 z=0 VAR idl		StringPlot
 -1			DnSavePlot
 3600.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq	NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 los ins idl_ascii		StringPlot
 -1			DnSavePlot
@@ -697,7 +697,7 @@ soho:c2 soho:c3		StringsInstrument
 3d VAR tcp              StringPlot
 -1                      DnSavePlot
 3600.                    DtSavePlot
-{MHD} b1x b1y b1z te ti qrad qheat qebyq qparbyq qperpbyq divu	NameVars
+{MHD} b1x b1y b1z te ti divu	NameVars
 {default}               NamePars
 
 #END_COMP SC -----------------------------------------------------------------
@@ -718,24 +718,24 @@ x=0 VAR idl		StringPlot
 -1			DnSavePlot
 3600.0			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq	NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 y=0 VAR idl		StringPlot
 -1			DnSavePlot
 3600.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq	NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 z=0 VAR idl		StringPlot
 -1			DnSavePlot
 3600.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dphi qrad qheat qebyq qparbyq qperpbyq	NameVars
+{MHD} b1x b1y b1z te ti dphi	NameVars
 {default}		NamePars
 3d VAR tcp              StringPlot
 -1                      DnSavePlot
 3600.                    DtSavePlot
-{MHD} b1x b1y b1z te ti qrad qheat qebyq qparbyq qperpbyq divu	NameVars
+{MHD} b1x b1y b1z te ti divu	NameVars
 {default}               NamePars
 
 #END_COMP SC ---------------------------------------------------------------
@@ -748,24 +748,24 @@ x=0 VAR idl		StringPlot
 -1			DnSavePlot
 1800.0			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}		NamePars
 y=0 VAR idl		StringPlot
 -1			DnSavePlot
 1800.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}		NamePars
 z=0 VAR idl		StringPlot
 -1			DnSavePlot
 1800.			DtSavePlot
 -1.0			DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}		NamePars
 3d VAR tcp              StringPlot
 -1                      DnSavePlot
 3600.                    DtSavePlot
-{MHD} b1x b1y b1z te ti qrad qheat qebyq qparbyq qperpbyq divu	NameVars
+{MHD} b1x b1y b1z te ti divu	NameVars
 {default}               NamePars
 
 #END_COMP IH -----------------------------------------------------------------
@@ -796,24 +796,24 @@ x=0 VAR idl             StringPlot
 -1                      DnSavePlot
 3600.                   DtSavePlot
 -1.0                    DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}               NamePars
 y=0 VAR idl             StringPlot
 -1                      DnSavePlot
 3600.                   DtSavePlot
 -1.0                    DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}               NamePars
 z=0 VAR idl             StringPlot
 -1                      DnSavePlot
 3600.                   DtSavePlot
 -1.0                    DxSavePlot
-{MHD} b1x b1y b1z te ti dx qrad qheat qebyq qparbyq qperpbyq dt	NameVars
+{MHD} b1x b1y b1z te ti dx dt	NameVars
 {default}               NamePars
 3d VAR tcp              StringPlot
 -1                      DnSavePlot
 21600.                    DtSavePlot
-{MHD} b1x b1y b1z te ti qrad qheat qebyq qparbyq qperpbyq divu	NameVars
+{MHD} b1x b1y b1z te ti divu	NameVars
 {default}               NamePars
 shl VAR idl             StringPlot
 -1                      DnSavePlot
