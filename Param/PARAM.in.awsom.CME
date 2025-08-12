@@ -286,9 +286,6 @@ periodic		TypeBc6   LatMax
 
 ------------ CME related parameters -------------------------------------------
 
-#UPDATECHECK
-F			UseUpdateCheck
-
 TIMESTEPLIMIT		^
 T			UseDtLimit
 0.1			DtLimitDim
