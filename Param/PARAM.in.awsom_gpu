@@ -272,8 +272,8 @@ T			UseSpeedMin
 #NONCONSERVATIVE
 F			UseNonConservative^
 
-#RESCHANGE
-T			UseAccurateReschange
+#PROLONGATION
+2			nOrderProlong
 
 #SAVELOGFILE
 T			DoSaveLogfile

@@ -271,9 +271,6 @@ F			UseNonConservative^
 #PROLONGATION
 2			nOrderProlong
 
-RESCHANGE
-T			UseAccurateReschange
-
 #SAVELOGFILE
 T			DoSaveLogfile
 VAR			StringLog
